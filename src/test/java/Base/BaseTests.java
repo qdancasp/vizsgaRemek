@@ -13,6 +13,8 @@ import java.util.concurrent.TimeUnit;
 public class BaseTests {
     public WebDriver driver;
     protected HomePage homePage;
+    protected String email = "daniatesztelo@gmail.com";
+    protected String pw = "12345678";
 
     @BeforeEach
     public void setUp(){

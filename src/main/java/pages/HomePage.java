@@ -108,4 +108,123 @@ public class HomePage {
         wait.until(ExpectedConditions.elementToBeClickable(TERMS_ACCEPT_CONFIRM));
         driver.findElement(TERMS_ACCEPT_CONFIRM).click();
     }
+
+    //Regisztráció gombra klikkelés
+    public void selectRegistration(){
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(REGISTRATION));
+        driver.findElement(REGISTRATION).click();
+    }
+
+    //Regisztráció oldalán nicknév beírása
+    public void typeRegistrationNick(String nick){
+        driver.switchTo().frame(driver.findElement(By.xpath("//*[contains(@id,\"fancybox-frame\")]")));
+        driver.findElement(REGISTRATION_NICK).click();
+        driver.findElement(REGISTRATION_NICK).sendKeys(nick);
+    }
+
+    //Regisztráció oldalán már beregisztrált nicknév beírása
+    public void typeRegistrationUsedNick(){
+        driver.switchTo().frame(driver.findElement(By.xpath("//*[contains(@id,\"fancybox-frame\")]")));
+        driver.findElement(REGISTRATION_NICK).click();
+        driver.findElement(REGISTRATION_NICK).sendKeys("dancas");
+    }
+
+    //Regisztrációs hibaüzenet megkapása
+    public String registrationErrorMessage(){
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(REGISTRATION_ERROR));
+        String error = driver.findElement(REGISTRATION_ERROR).getText();
+        return error;
+    }
+
+    //Regisztráció oldalán e-mail beírása
+    public void typeRegistrationEmail(String email){
+        driver.findElement(REGISTRATION_EMAIL).click();
+        driver.findElement(REGISTRATION_EMAIL).sendKeys(email);
+    }
+
+    //Regisztráció oldalán már beregisztrált e-mail használata
+    public void typRegistrationUsedEmail(){
+        driver.findElement(REGISTRATION_EMAIL).click();
+        driver.findElement(REGISTRATION_EMAIL).sendKeys("daniatesztelo@gmail.com");
+    }
+
+    //Hírlevél checkbox kipipálásának levétele
+    public void deselectSubScribe(){
+        WebElement checkbox = driver.findElement(REGISTRATION_SUBSCRIBE_CHECKBOX);
+        if(checkbox.isSelected()){
+            driver.findElement(REGISTRATION_SUBSCRIBE_CHECKBOX).click();
+        }else{
+            System.out.println("Subscribe checkbox is not selected" );
+        }
+    }
+
+    //Használati szerződés checkbox kipipálása
+    public void acceptRegistrationTerms(){
+        WebElement checkbox = driver.findElement(REGISTRATION_ACCEPT_TERMS_CHECKBOX);
+        if(!checkbox.isSelected()){
+            driver.findElement(REGISTRATION_ACCEPT_TERMS_CHECKBOX).click();
+        }else{
+            System.out.println("Terms and Conditions are already accepted");
+        }
+    }
+
+    //Regisztráció véglegesítése
+    public void submitRegistration(){
+        driver.findElement(REGISTRATION_SUBMIT).click();
+    }
+
+    //Regisztráció véglegesítésének validálása
+    public boolean isRegistrationCompleted(){
+        boolean message;
+        try{
+            driver.findElement(REGISTRATION_COMPLETED).isDisplayed();
+            message = true;
+        }catch(WebDriverException e){
+            System.out.println("Error during registration,please enter new nickname and email address");
+            message = false;
+        }
+        return message;
+    }
+
+    //Belépésre kattintás
+    public void selectLogin(){
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(LOGIN));
+        driver.findElement(LOGIN).click();
+    }
+
+    //E-mail cím mezőbe írás
+    public void typeEmail(String email){
+        driver.switchTo().frame(driver.findElement(By.xpath("//*[contains(@id,'fancybox-frame')]")));
+        driver.findElement(EMAIL).sendKeys(email);
+    }
+
+    //Jelszó mezőbe írás
+    public void typePassword(String password){
+        driver.findElement(PASSWORD).click();
+        driver.findElement(PASSWORD).sendKeys(password);
+    }
+
+    //Belépés gombra kattintás
+    public void submitButton(){
+        driver.findElement(SUBMIT).click();
+    }
+
+    //Belépés létrejöttének validálása
+    public String getLoggedInText(){
+        driver.switchTo().defaultContent();
+        String loggedIn = driver.findElement(USERNAME_MENU).getText();
+        return loggedIn;
+    }
+
+    //Belépés sikertelenségének validálása
+    public String wrongDatas(){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(WRONG_EMAIL_OR_PASSWORD_MESSAGE));
+        String errorMessage = driver.findElement(WRONG_EMAIL_OR_PASSWORD_MESSAGE).getText();
+        return errorMessage;
+    }
+
 }
