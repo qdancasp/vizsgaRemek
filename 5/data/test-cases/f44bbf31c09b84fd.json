@@ -1,0 +1,87 @@
+{
+  "uid" : "f44bbf31c09b84fd",
+  "name" : "TC-22: Adatok törlése; Profil adatainak törlése",
+  "fullName" : "DeleteDetails.DeleteDetailsTest.testRemovingDetails",
+  "historyId" : "c99f1007ee269396981e154456295022",
+  "time" : {
+    "start" : 1633694922461,
+    "stop" : 1633695000155,
+    "duration" : 77694
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633694922483,
+      "stop" : 1633694932457,
+      "duration" : 9974
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633695000077,
+      "stop" : 1633695000148,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-337"
+  }, {
+    "name" : "thread",
+    "value" : "3129@fv-az47-337.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "DeleteDetails.DeleteDetailsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "DeleteDetails.DeleteDetailsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRemovingDetails"
+  }, {
+    "name" : "suite",
+    "value" : "Adat vagy adatok törlése"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f44bbf31c09b84fd.json",
+  "parameterValues" : [ ]
+}

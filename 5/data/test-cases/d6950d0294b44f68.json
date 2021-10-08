@@ -1,0 +1,87 @@
+{
+  "uid" : "d6950d0294b44f68",
+  "name" : "TC-21: Meglévő adat módosítása; Profil szerkesztése",
+  "fullName" : "ChangeDetails.ChangeDetailsTest.testingChanges",
+  "historyId" : "d74e835b09e0cda143ef23fe7422bdac",
+  "time" : {
+    "start" : 1633695139006,
+    "stop" : 1633695187662,
+    "duration" : 48656
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633695139006,
+      "stop" : 1633695140854,
+      "duration" : 1848
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633695187587,
+      "stop" : 1633695187662,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-337"
+  }, {
+    "name" : "thread",
+    "value" : "3129@fv-az47-337.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ChangeDetails.ChangeDetailsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ChangeDetails.ChangeDetailsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testingChanges"
+  }, {
+    "name" : "suite",
+    "value" : "Meglévő adat módosítás"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6950d0294b44f68.json",
+  "parameterValues" : [ ]
+}

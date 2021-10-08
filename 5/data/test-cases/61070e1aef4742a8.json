@@ -1,0 +1,89 @@
+{
+  "uid" : "61070e1aef4742a8",
+  "name" : "TC-1: Regisztráció; helyes adatokkal",
+  "fullName" : "Registration.RegistrationTest.testingValidRegistration",
+  "historyId" : "e719a68ebc7596bbc5cdf758d9078523",
+  "time" : {
+    "start" : 1633695502406,
+    "stop" : 1633695502406,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "The test is disabled due to email and nickname generation difficulties so it won't break the test",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-337"
+  }, {
+    "name" : "thread",
+    "value" : "3129@fv-az47-337.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Registration.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testingValidRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "Regisztráció"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4c21967d6dc59360",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/4//#testresult/4c21967d6dc59360",
+        "status" : "skipped",
+        "statusDetails" : "The test is disabled due to email and nickname generation difficulties so it won't break the test",
+        "time" : {
+          "start" : 1633690612638,
+          "stop" : 1633690612638,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dc62ef9196d76a0c",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/3//#testresult/dc62ef9196d76a0c",
+        "status" : "skipped",
+        "statusDetails" : "The test is disabled due to email and nickname generation difficulties so it won't break the test",
+        "time" : {
+          "start" : 1633689761829,
+          "stop" : 1633689761829,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "61070e1aef4742a8.json",
+  "parameterValues" : [ ]
+}
