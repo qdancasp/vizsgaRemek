@@ -1,0 +1,107 @@
+{
+  "uid" : "c297e50d987f841c",
+  "name" : "TC-24: Kijelentkezés",
+  "fullName" : "Logout.LogoutTest.testLogout",
+  "historyId" : "74a9dc85dfa2f9783ba995aa6fba4d96",
+  "time" : {
+    "start" : 1633710568441,
+    "stop" : 1633710618166,
+    "duration" : 49725
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633710568442,
+      "stop" : 1633710570782,
+      "duration" : 2340
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633710618096,
+      "stop" : 1633710618165,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az121-403"
+  }, {
+    "name" : "thread",
+    "value" : "3089@fv-az121-403.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Logout.LogoutTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Logout.LogoutTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogout"
+  }, {
+    "name" : "suite",
+    "value" : "Kijelentkezés"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e9644af141e054f5",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/8//#testresult/e9644af141e054f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633709273336,
+          "stop" : 1633709360507,
+          "duration" : 87171
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c297e50d987f841c.json",
+  "parameterValues" : [ ]
+}

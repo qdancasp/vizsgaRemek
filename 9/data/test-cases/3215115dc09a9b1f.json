@@ -1,0 +1,107 @@
+{
+  "uid" : "3215115dc09a9b1f",
+  "name" : "TC-4: Regisztráció; nem bepipált Használati feltételekkel",
+  "fullName" : "Registration.RegistrationTest.testingRegistrationWithoutAcceptingTerms",
+  "historyId" : "cd6bc9989c4a8e7abc648664695657e",
+  "time" : {
+    "start" : 1633710976258,
+    "stop" : 1633711021527,
+    "duration" : 45269
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633710976258,
+      "stop" : 1633710978651,
+      "duration" : 2393
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633711021458,
+      "stop" : 1633711021526,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az121-403"
+  }, {
+    "name" : "thread",
+    "value" : "3089@fv-az121-403.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Registration.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testingRegistrationWithoutAcceptingTerms"
+  }, {
+    "name" : "suite",
+    "value" : "Regisztráció"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f460468c0829896",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/8//#testresult/f460468c0829896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633709968028,
+          "stop" : 1633710015621,
+          "duration" : 47593
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3215115dc09a9b1f.json",
+  "parameterValues" : [ ]
+}
