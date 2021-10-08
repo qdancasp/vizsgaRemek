@@ -1,0 +1,241 @@
+[ {
+  "uid" : "4d3b879e76dc7492",
+  "name" : "TC-9: Bejelenetkezés; rossz jelszóval",
+  "time" : {
+    "start" : 1633709715042,
+    "stop" : 1633709761157,
+    "duration" : 46115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b680ffed16eef24c",
+  "name" : "TC-22: Adatok törlése; Profil adatainak törlése",
+  "time" : {
+    "start" : 1633708762194,
+    "stop" : 1633708838730,
+    "duration" : 76536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9e74a38de54499f",
+  "name" : "TC-7: Bejelentkezés; üres jelszó mezővel",
+  "time" : {
+    "start" : 1633709620602,
+    "stop" : 1633709666155,
+    "duration" : 45553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c60f0fe7ea67b47",
+  "name" : "TC-2: Regisztráció; már létező Nicknévvel",
+  "time" : {
+    "start" : 1633709877487,
+    "stop" : 1633709922542,
+    "duration" : 45055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c76d167b2a2062a",
+  "name" : "TC-18: Új adat bevitel; Keresés helyének validálásával",
+  "time" : {
+    "start" : 1633709223464,
+    "stop" : 1633709273328,
+    "duration" : 49864
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4145292d3f736153",
+  "name" : "TC-21: Meglévő adat módosítása; Profil szerkesztése",
+  "time" : {
+    "start" : 1633709506192,
+    "stop" : 1633709573836,
+    "duration" : 67644
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ee66272553ae0559",
+  "name" : "TC-11: Adatkezelési nyilatkozat használata; Sütik elfogadása",
+  "time" : {
+    "start" : 1633708838817,
+    "stop" : 1633708882062,
+    "duration" : 43245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "875fb00161a35fd4",
+  "name" : "TC-6: Bejelentkezés; üres e-mail cím mezővel",
+  "time" : {
+    "start" : 1633709666158,
+    "stop" : 1633709715040,
+    "duration" : 48882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "685ba535a4980c12",
+  "name" : "TC-5: Bejelentkezés; helyes adatokkal",
+  "time" : {
+    "start" : 1633709573855,
+    "stop" : 1633709620599,
+    "duration" : 46744
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79fb18eec0be01be",
+  "name" : "TC-23: Adatok lementése felületről; Elérhető videók listázása",
+  "time" : {
+    "start" : 1633709806541,
+    "stop" : 1633709877483,
+    "duration" : 70942
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4ca40a5616f6c5d",
+  "name" : "TC-20: Ismételt és sorozatos adatbevitel adatforrásból; Profil kitöltése",
+  "time" : {
+    "start" : 1633709123656,
+    "stop" : 1633709173228,
+    "duration" : 49572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f460468c0829896",
+  "name" : "TC-4: Regisztráció; nem bepipált Használati feltételekkel",
+  "time" : {
+    "start" : 1633709968028,
+    "stop" : 1633710015621,
+    "duration" : 47593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee518a8c89cbf9ca",
+  "name" : "TC-1: Regisztráció; helyes adatokkal",
+  "time" : {
+    "start" : 1633709968027,
+    "stop" : 1633709968027,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d1d45eb7a0730ead",
+  "name" : "TC-12: Adatok listázása; Hírek",
+  "time" : {
+    "start" : 1633709026205,
+    "stop" : 1633709074889,
+    "duration" : 48684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fb88ce4a175015c",
+  "name" : "TC-17: Több oldalas lista bejárása",
+  "time" : {
+    "start" : 1633709360520,
+    "stop" : 1633709506183,
+    "duration" : 145663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c2608fc0b83eaa7",
+  "name" : "TC-13: Adatok listázása; Videók",
+  "time" : {
+    "start" : 1633708929728,
+    "stop" : 1633708977170,
+    "duration" : 47442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfb14aa88dbe0895",
+  "name" : "TC-16: Adatok listázása; Cikkek",
+  "time" : {
+    "start" : 1633708882067,
+    "stop" : 1633708929724,
+    "duration" : 47657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38ccfa5a9f87b213",
+  "name" : "TC-8: Bejelentkezés; rossz e-mail címmel",
+  "time" : {
+    "start" : 1633709761159,
+    "stop" : 1633709806537,
+    "duration" : 45378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "add10b1a53266f04",
+  "name" : "TC-10: Adatkezelési nyilatkozat használata",
+  "time" : {
+    "start" : 1633708838808,
+    "stop" : 1633708838808,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fcf8a86cd1831348",
+  "name" : "TC-19: Új adat bevitel; Invalid keresési hely validálásával",
+  "time" : {
+    "start" : 1633709173232,
+    "stop" : 1633709223461,
+    "duration" : 50229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8a7ea730b9a4cb3",
+  "name" : "TC-15: Adatok listázása; Tudástár",
+  "time" : {
+    "start" : 1633708977172,
+    "stop" : 1633709026196,
+    "duration" : 49024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1084a11e31ce0468",
+  "name" : "TC-3: Regisztráció; már használatban lévő E-mail címmel",
+  "time" : {
+    "start" : 1633709922550,
+    "stop" : 1633709968025,
+    "duration" : 45475
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9644af141e054f5",
+  "name" : "TC-24: Kijelentkezés",
+  "time" : {
+    "start" : 1633709273336,
+    "stop" : 1633709360507,
+    "duration" : 87171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecb7e7941a4d6e20",
+  "name" : "TC-14: Adatok listázása; Társalgó",
+  "time" : {
+    "start" : 1633709074892,
+    "stop" : 1633709123647,
+    "duration" : 48755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

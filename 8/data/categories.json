@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[@href=\"/azonosito/?op=options&tab=personal\"] (tried for 20 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "TC-21: Meglévő adat módosítása; Profil szerkesztése",
+        "uid" : "4145292d3f736153",
+        "parentUid" : "8e952ee6f5228c4cb8ab51d3534d3b91",
+        "status" : "broken",
+        "time" : {
+          "start" : 1633709506192,
+          "stop" : 1633709573836,
+          "duration" : 67644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e952ee6f5228c4cb8ab51d3534d3b91"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

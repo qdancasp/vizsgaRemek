@@ -1,0 +1,87 @@
+{
+  "uid" : "f460468c0829896",
+  "name" : "TC-4: Regisztráció; nem bepipált Használati feltételekkel",
+  "fullName" : "Registration.RegistrationTest.testingRegistrationWithoutAcceptingTerms",
+  "historyId" : "cd6bc9989c4a8e7abc648664695657e",
+  "time" : {
+    "start" : 1633709968028,
+    "stop" : 1633710015621,
+    "duration" : 47593
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633709968029,
+      "stop" : 1633709970437,
+      "duration" : 2408
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633710015551,
+      "stop" : 1633710015621,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-327"
+  }, {
+    "name" : "thread",
+    "value" : "3080@fv-az82-327.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Registration.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testingRegistrationWithoutAcceptingTerms"
+  }, {
+    "name" : "suite",
+    "value" : "Regisztráció"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f460468c0829896.json",
+  "parameterValues" : [ ]
+}

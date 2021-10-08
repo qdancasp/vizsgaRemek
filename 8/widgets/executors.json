@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://qdancasp.github.io/vizsgaRemek",
+  "buildOrder" : 8,
+  "buildName" : "GitHub Actions Run #1321018533",
+  "buildUrl" : "https://github.com/qdancasp/vizsgaRemek/actions/runs/1321018533",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/8/"
+} ]

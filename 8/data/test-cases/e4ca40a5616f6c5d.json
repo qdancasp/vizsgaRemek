@@ -1,0 +1,87 @@
+{
+  "uid" : "e4ca40a5616f6c5d",
+  "name" : "TC-20: Ismételt és sorozatos adatbevitel adatforrásból; Profil kitöltése",
+  "fullName" : "AddDetailsFromDataSource.AddDetailsFromDataSourceTest.testAddingDetails",
+  "historyId" : "9f4599ce998407e53339c6860ffb3542",
+  "time" : {
+    "start" : 1633709123656,
+    "stop" : 1633709173228,
+    "duration" : 49572
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633709123657,
+      "stop" : 1633709125931,
+      "duration" : 2274
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633709173158,
+      "stop" : 1633709173227,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-327"
+  }, {
+    "name" : "thread",
+    "value" : "3080@fv-az82-327.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "AddDetailsFromDataSource.AddDetailsFromDataSourceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "AddDetailsFromDataSource.AddDetailsFromDataSourceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAddingDetails"
+  }, {
+    "name" : "suite",
+    "value" : "Ismételt és sorozatos adatbevitel adatforrásból"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4ca40a5616f6c5d.json",
+  "parameterValues" : [ ]
+}
