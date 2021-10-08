@@ -1,38 +1,3 @@
 [ {
-  "buildOrder" : 6,
-  "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/6/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 1207737
-  }
-}, {
-  "buildOrder" : 5,
-  "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/5/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 624774
-  }
-}, {
-  "buildOrder" : 4,
-  "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/4/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 521908
-  }
-}, {
-  "buildOrder" : 3,
-  "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/3/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 417410
-  }
-}, {
-  "buildOrder" : 2,
-  "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/2/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 46762
-  }
-}, {
   "data" : { }
 } ]
