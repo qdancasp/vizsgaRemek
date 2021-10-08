@@ -1,0 +1,117 @@
+{
+  "uid" : "1497816aefa91a54",
+  "name" : "TC-24: Kijelentkezés",
+  "fullName" : "Logout.LogoutTest.testLogout",
+  "historyId" : "74a9dc85dfa2f9783ba995aa6fba4d96",
+  "time" : {
+    "start" : 1633696309109,
+    "stop" : 1633696395097,
+    "duration" : 85988
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633696309109,
+      "stop" : 1633696310765,
+      "duration" : 1656
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633696395027,
+      "stop" : 1633696395096,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-337"
+  }, {
+    "name" : "thread",
+    "value" : "3080@fv-az47-337.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Logout.LogoutTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Logout.LogoutTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogout"
+  }, {
+    "name" : "suite",
+    "value" : "Kijelentkezés"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "3caaa279b42df4fd",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/5//#testresult/3caaa279b42df4fd",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <li class=\"logout\">...</li> is not clickable at point (602, 282). Other element would receive the click: <a href=\"/tarsalgo/?op=own\" class=\"300\">...</a>\n  (Session info: headless chrome=94.0.4606.71)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-337', ip: '10.1.0.114', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1042-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /tmp/.com.google.Chrome.pFlTBR}, goog:chromeOptions: {debuggerAddress: localhost:40011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 84c11ee3c19571e09b804e38cafd9fa2",
+        "time" : {
+          "start" : 1633695092254,
+          "stop" : 1633695138995,
+          "duration" : 46741
+        }
+      }, {
+        "uid" : "cfd0c3b8fe356c2c",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/4//#testresult/cfd0c3b8fe356c2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633690200402,
+          "stop" : 1633690288612,
+          "duration" : 88210
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1497816aefa91a54.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,125 @@
+{
+  "uid" : "98c113843cc80b7d",
+  "name" : "TC-3: Regisztráció; már használatban lévő E-mail címmel",
+  "fullName" : "Registration.RegistrationTest.testingRegistrationWithUsedEmail",
+  "historyId" : "6609563a5d283873268cf204d1041335",
+  "time" : {
+    "start" : 1633696920854,
+    "stop" : 1633696965640,
+    "duration" : 44786
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633696920855,
+      "stop" : 1633696922590,
+      "duration" : 1735
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633696965568,
+      "stop" : 1633696965640,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-337"
+  }, {
+    "name" : "thread",
+    "value" : "3080@fv-az47-337.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Registration.RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testingRegistrationWithUsedEmail"
+  }, {
+    "name" : "suite",
+    "value" : "Regisztráció"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c163a950c4671024",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/5//#testresult/c163a950c4671024",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633695457377,
+          "stop" : 1633695502404,
+          "duration" : 45027
+        }
+      }, {
+        "uid" : "29b00008e01bfc03",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/4//#testresult/29b00008e01bfc03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633690567184,
+          "stop" : 1633690612636,
+          "duration" : 45452
+        }
+      }, {
+        "uid" : "aca1aa95f54251f1",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/3//#testresult/aca1aa95f54251f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633689714194,
+          "stop" : 1633689761826,
+          "duration" : 47632
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "98c113843cc80b7d.json",
+  "parameterValues" : [ ]
+}
