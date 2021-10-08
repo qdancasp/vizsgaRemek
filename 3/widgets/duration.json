@@ -1,0 +1,111 @@
+[ {
+  "uid" : "267ca4838a99b817",
+  "name" : "TC-2: Regisztráció; már létező Nicknévvel",
+  "time" : {
+    "start" : 1633689668920,
+    "stop" : 1633689714191,
+    "duration" : 45271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1881bc99aa3e59b",
+  "name" : "TC-5: Bejelentkezés; helyes adatokkal",
+  "time" : {
+    "start" : 1633689439727,
+    "stop" : 1633689486561,
+    "duration" : 46834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aca1aa95f54251f1",
+  "name" : "TC-3: Regisztráció; már használatban lévő E-mail címmel",
+  "time" : {
+    "start" : 1633689714194,
+    "stop" : 1633689761826,
+    "duration" : 47632
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "211a1a98207bc120",
+  "name" : "TC-9: Bejelenetkezés; rossz jelszóval",
+  "time" : {
+    "start" : 1633689577224,
+    "stop" : 1633689623376,
+    "duration" : 46152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc62ef9196d76a0c",
+  "name" : "TC-1: Regisztráció; helyes adatokkal",
+  "time" : {
+    "start" : 1633689761829,
+    "stop" : 1633689761829,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3299d20e71b30a8e",
+  "name" : "TC-8: Bejelentkezés; rossz e-mail címmel",
+  "time" : {
+    "start" : 1633689623386,
+    "stop" : 1633689668916,
+    "duration" : 45530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15ff5bd950c7fabc",
+  "name" : "TC-7: Bejelentkezés; üres jelszó mezővel",
+  "time" : {
+    "start" : 1633689486564,
+    "stop" : 1633689532038,
+    "duration" : 45474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baff7173db8ad28c",
+  "name" : "TC-11: Adatkezelési nyilatkozat használata; Sütik elfogadása",
+  "time" : {
+    "start" : 1633689389874,
+    "stop" : 1633689439675,
+    "duration" : 49801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de53d985e71e0f1c",
+  "name" : "TC-10: Adatkezelési nyilatkozat használata",
+  "time" : {
+    "start" : 1633689389763,
+    "stop" : 1633689389765,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4eaa847babcf1788",
+  "name" : "TC-4: Regisztráció; nem bepipált Használati feltételekkel",
+  "time" : {
+    "start" : 1633689761830,
+    "stop" : 1633689807173,
+    "duration" : 45343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "385488722718ef1f",
+  "name" : "TC-6: Bejelentkezés; üres e-mail cím mezővel",
+  "time" : {
+    "start" : 1633689532041,
+    "stop" : 1633689577221,
+    "duration" : 45180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

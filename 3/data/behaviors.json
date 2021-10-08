@@ -1,0 +1,148 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "TC-10: Adatkezelési nyilatkozat használata",
+    "uid" : "de53d985e71e0f1c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1633689389763,
+      "stop" : 1633689389765,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-11: Adatkezelési nyilatkozat használata; Sütik elfogadása",
+    "uid" : "baff7173db8ad28c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633689389874,
+      "stop" : 1633689439675,
+      "duration" : 49801
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-5: Bejelentkezés; helyes adatokkal",
+    "uid" : "b1881bc99aa3e59b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633689439727,
+      "stop" : 1633689486561,
+      "duration" : 46834
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-7: Bejelentkezés; üres jelszó mezővel",
+    "uid" : "15ff5bd950c7fabc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633689486564,
+      "stop" : 1633689532038,
+      "duration" : 45474
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-6: Bejelentkezés; üres e-mail cím mezővel",
+    "uid" : "385488722718ef1f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633689532041,
+      "stop" : 1633689577221,
+      "duration" : 45180
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-9: Bejelenetkezés; rossz jelszóval",
+    "uid" : "211a1a98207bc120",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633689577224,
+      "stop" : 1633689623376,
+      "duration" : 46152
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-8: Bejelentkezés; rossz e-mail címmel",
+    "uid" : "3299d20e71b30a8e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633689623386,
+      "stop" : 1633689668916,
+      "duration" : 45530
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-2: Regisztráció; már létező Nicknévvel",
+    "uid" : "267ca4838a99b817",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633689668920,
+      "stop" : 1633689714191,
+      "duration" : 45271
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-3: Regisztráció; már használatban lévő E-mail címmel",
+    "uid" : "aca1aa95f54251f1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633689714194,
+      "stop" : 1633689761826,
+      "duration" : 47632
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-1: Regisztráció; helyes adatokkal",
+    "uid" : "dc62ef9196d76a0c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1633689761829,
+      "stop" : 1633689761829,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-4: Regisztráció; nem bepipált Használati feltételekkel",
+    "uid" : "4eaa847babcf1788",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633689761830,
+      "stop" : 1633689807173,
+      "duration" : 45343
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

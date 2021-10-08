@@ -1,0 +1,79 @@
+{
+  "uid" : "de53d985e71e0f1c",
+  "name" : "TC-10: Adatkezelési nyilatkozat használata",
+  "fullName" : "PrivacyAndPolicy.PrivacyAndPolicyTest.testPrivacyTitles",
+  "historyId" : "ec0ca5831c153422b4874649f039cc8f",
+  "time" : {
+    "start" : 1633689389763,
+    "stop" : 1633689389765,
+    "duration" : 2
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test is disabled because it doesn't run on github's servers with any settings. It requires to run on your own computer",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az121-403"
+  }, {
+    "name" : "thread",
+    "value" : "3069@fv-az121-403.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PrivacyAndPolicy.PrivacyAndPolicyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "PrivacyAndPolicy.PrivacyAndPolicyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testPrivacyTitles"
+  }, {
+    "name" : "suite",
+    "value" : "Adatkezelési nyilatkozat használata"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "cf5f7cf18ddb01c6",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/2//#testresult/cf5f7cf18ddb01c6",
+        "status" : "skipped",
+        "statusDetails" : "Test is disabled because it doesn't run on github's servers with any settings. It requires to run on your own computer",
+        "time" : {
+          "start" : 1633688119866,
+          "stop" : 1633688119868,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "de53d985e71e0f1c.json",
+  "parameterValues" : [ ]
+}
