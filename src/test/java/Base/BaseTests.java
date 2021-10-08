@@ -24,7 +24,7 @@ public class BaseTests {
     protected HomePage homePage;
     protected AccountOptions accountOptions;
     protected AccountOptionsPersonal accountOptionsPersonal;
-    /*protected SearchNews searchNews;
+    protected SearchNews searchNews;
     protected JavaPage javaPage;
     protected JavaVideoPage javaVideoPage;
     protected JavaNewsPage javaNewsPage;
@@ -32,7 +32,7 @@ public class BaseTests {
     protected NewsList newsList;
     protected ForumList forumList;
     protected KnowledgeList knowledgeList;
-    protected ArticleList articleList;*/
+    protected ArticleList articleList;
 
     @BeforeEach
     public void setUp(){
