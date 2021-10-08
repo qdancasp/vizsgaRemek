@@ -227,4 +227,100 @@ public class HomePage {
         return errorMessage;
     }
 
+    //Felhasználónév lenyíló menüből Beállítások választása
+    public void selectOptions(){
+        Actions action = new Actions(driver);
+        WebElement we = driver.findElement(USERNAME_MENU);
+        action.moveToElement(we).perform();
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(OPTIONS));
+        driver.findElement(OPTIONS).click();
+    }
+
+    //Felhasználónév lenyíló menüből Kijelentkezés választása
+    public void userLogout(){
+        Actions action = new Actions(driver);
+        WebElement we = driver.findElement(USERNAME_MENU);
+        action.moveToElement(we).perform();
+        driver.findElement(LOGOUT).click();
+    }
+
+    //Kijelentkezés validálása
+    public boolean isNickNameVisible(){
+        driver.switchTo().defaultContent();
+        boolean nickName;
+        try{
+            driver.findElement(USERNAME_MENU).isDisplayed();
+            nickName = false;
+        }catch(WebDriverException e){
+            nickName = true;
+        }
+        return nickName;
+    }
+
+    //Prog.hu ikon melletti lenyíló menüből a Hírek választása
+    public void selectNewsFromMenu(){
+        Actions action = new Actions(driver);
+        WebElement we = driver.findElement(MENU_BAR);
+        action.moveToElement(we).perform();
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(MENU_BAR_NEWS));
+        driver.findElement(MENU_BAR_NEWS).click();
+    }
+
+    //Prog.hu ikon melletti lenyíló menüből a Videók választása
+    public void selectVideoFromMenu(){
+        Actions action = new Actions(driver);
+        WebElement we = driver.findElement(MENU_BAR);
+        action.moveToElement(we).perform();
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(MENU_BAR_VIDEOS));
+        driver.findElement(MENU_BAR_VIDEOS).click();
+    }
+
+    //Prog.hu ikon melletti lenyíló menüből a Társalgó választása
+    public void selectForumFromMenu(){
+        Actions action = new Actions(driver);
+        WebElement we = driver.findElement(MENU_BAR);
+        action.moveToElement(we).perform();
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(MENU_BAR_FORUM));
+        driver.findElement(MENU_BAR_FORUM).click();
+    }
+
+    //Prog.hu ikon melletti lenyíló menüből a Tudástár választása
+    public void selectKnowledgeBaseFromMenu(){
+        Actions action = new Actions(driver);
+        WebElement we = driver.findElement(MENU_BAR);
+        action.moveToElement(we).perform();
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(MENU_BAR_KNOWLEDGE_BASE));
+        driver.findElement(MENU_BAR_KNOWLEDGE_BASE).click();
+    }
+
+    //Prog.hu ikon melletti lenyíló menüből a Cikkek választása
+    public void selectArticlesFromMenu(){
+        Actions action = new Actions(driver);
+        WebElement we = driver.findElement(MENU_BAR);
+        action.moveToElement(we).perform();
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(MENU_BAR_ARTICLES));
+        driver.findElement(MENU_BAR_ARTICLES).click();
+    }
+
+    //Keresőmező kiválasztása,és keresőszó küldése
+    public void searchBar(String content){
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(SEARCH_BAR));
+        driver.findElement(SEARCH_BAR).click();
+        driver.findElement(SEARCH_BAR).sendKeys(content);
+        driver.findElement(PRESS_SEARCH).click();
+    }
+
+    //Menüsorból Java elem kiválasztása
+    public void selectJava(){
+        WebElement element =  driver.findElement(MENU_BAR_JAVA);
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        jse.executeScript("arguments[0].click()", element);
+    }
 }

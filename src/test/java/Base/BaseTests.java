@@ -41,6 +41,17 @@ public class BaseTests {
         return driver;
     }
 
+    public void doLogin(){
+        homePage = new HomePage(driver);
+
+        homePage.acceptTerms();
+        homePage.acceptCookies();
+        homePage.selectLogin();
+        homePage.typeEmail(email);
+        homePage.typePassword(pw);
+        homePage.submitButton();
+    }
+
     @AfterEach
     public void tearDown(){
         driver.quit();
