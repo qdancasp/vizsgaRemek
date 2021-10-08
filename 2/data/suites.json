@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Adatkezelési nyilatkozat használata",
+    "children" : [ {
+      "name" : "TC-10: Adatkezelési nyilatkozat használata",
+      "uid" : "cf5f7cf18ddb01c6",
+      "parentUid" : "ff36ee20180c2d1e26143fbe98dc472b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1633688119866,
+        "stop" : 1633688119868,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-11: Adatkezelési nyilatkozat használata; Sütik elfogadása",
+      "uid" : "1c9d1ed57e3edc5",
+      "parentUid" : "ff36ee20180c2d1e26143fbe98dc472b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633688119961,
+        "stop" : 1633688166628,
+        "duration" : 46667
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ff36ee20180c2d1e26143fbe98dc472b"
+  } ],
+  "name" : "suites"
+}

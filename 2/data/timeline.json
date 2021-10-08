@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az83-344",
+    "children" : [ {
+      "name" : "3077@fv-az83-344.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "TC-10: Adatkezelési nyilatkozat használata",
+        "uid" : "cf5f7cf18ddb01c6",
+        "parentUid" : "04c42e0eb6e5abb78498991896252236",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1633688119866,
+          "stop" : 1633688119868,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-11: Adatkezelési nyilatkozat használata; Sütik elfogadása",
+        "uid" : "1c9d1ed57e3edc5",
+        "parentUid" : "04c42e0eb6e5abb78498991896252236",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633688119961,
+          "stop" : 1633688166628,
+          "duration" : 46667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04c42e0eb6e5abb78498991896252236"
+    } ],
+    "uid" : "d6052b345a20371660548b9866051226"
+  } ],
+  "name" : "timeline"
+}

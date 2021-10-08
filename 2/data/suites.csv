@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Fri Oct 08 10:15:19 GMT 2021","Fri Oct 08 10:15:19 GMT 2021","2","","Adatkezelési nyilatkozat használata","","PrivacyAndPolicy.PrivacyAndPolicyTest","testPrivacyTitles","TC-10: Adatkezelési nyilatkozat használata",""
+"passed","Fri Oct 08 10:15:19 GMT 2021","Fri Oct 08 10:16:06 GMT 2021","46667","","Adatkezelési nyilatkozat használata","","PrivacyAndPolicy.PrivacyAndPolicyTest","testAcceptCookies","TC-11: Adatkezelési nyilatkozat használata; Sütik elfogadása",""

@@ -1,0 +1,87 @@
+{
+  "uid" : "1c9d1ed57e3edc5",
+  "name" : "TC-11: Adatkezelési nyilatkozat használata; Sütik elfogadása",
+  "fullName" : "PrivacyAndPolicy.PrivacyAndPolicyTest.testAcceptCookies",
+  "historyId" : "b21d2ef01ab01660dc6eb3737a6a56d8",
+  "time" : {
+    "start" : 1633688119961,
+    "stop" : 1633688166628,
+    "duration" : 46667
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633688119980,
+      "stop" : 1633688125676,
+      "duration" : 5696
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633688166555,
+      "stop" : 1633688166625,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-344"
+  }, {
+    "name" : "thread",
+    "value" : "3077@fv-az83-344.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PrivacyAndPolicy.PrivacyAndPolicyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "PrivacyAndPolicy.PrivacyAndPolicyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAcceptCookies"
+  }, {
+    "name" : "suite",
+    "value" : "Adatkezelési nyilatkozat használata"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c9d1ed57e3edc5.json",
+  "parameterValues" : [ ]
+}

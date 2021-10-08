@@ -1,0 +1,21 @@
+[ {
+  "uid" : "cf5f7cf18ddb01c6",
+  "name" : "TC-10: Adatkezelési nyilatkozat használata",
+  "time" : {
+    "start" : 1633688119866,
+    "stop" : 1633688119868,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1c9d1ed57e3edc5",
+  "name" : "TC-11: Adatkezelési nyilatkozat használata; Sütik elfogadása",
+  "time" : {
+    "start" : 1633688119961,
+    "stop" : 1633688166628,
+    "duration" : 46667
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
