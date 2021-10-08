@@ -12,9 +12,27 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTests {
     public WebDriver driver;
-    protected HomePage homePage;
+
     protected String email = "daniatesztelo@gmail.com";
     protected String pw = "12345678";
+    protected String FaName = "Mátyási";
+    protected String FiName = "Dani";
+    protected String CommentText = "Automatizált teszteket írok";
+    protected String MyAddress = "Budapest";
+    protected String searchKeyword = "java";
+
+    protected HomePage homePage;
+    protected AccountOptions accountOptions;
+    protected AccountOptionsPersonal accountOptionsPersonal;
+    /*protected SearchNews searchNews;
+    protected JavaPage javaPage;
+    protected JavaVideoPage javaVideoPage;
+    protected JavaNewsPage javaNewsPage;
+    protected VideoList videoList;
+    protected NewsList newsList;
+    protected ForumList forumList;
+    protected KnowledgeList knowledgeList;
+    protected ArticleList articleList;*/
 
     @BeforeEach
     public void setUp(){
