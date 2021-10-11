@@ -1,0 +1,117 @@
+{
+  "uid" : "343d44b266d371ba",
+  "name" : "TC-21: Meglévő adat módosítása; Profil szerkesztése",
+  "fullName" : "ChangeDetails.ChangeDetailsTest.testingChanges",
+  "historyId" : "d74e835b09e0cda143ef23fe7422bdac",
+  "time" : {
+    "start" : 1633951513300,
+    "stop" : 1633951561568,
+    "duration" : 48268
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633951513300,
+      "stop" : 1633951515870,
+      "duration" : 2570
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633951561498,
+      "stop" : 1633951561567,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-327"
+  }, {
+    "name" : "thread",
+    "value" : "3213@fv-az82-327.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ChangeDetails.ChangeDetailsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ChangeDetails.ChangeDetailsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testingChanges"
+  }, {
+    "name" : "suite",
+    "value" : "Meglévő adat módosítás"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "404c3fe5e92e6807",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/9//#testresult/404c3fe5e92e6807",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633710761276,
+          "stop" : 1633710810168,
+          "duration" : 48892
+        }
+      }, {
+        "uid" : "4145292d3f736153",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/8//#testresult/4145292d3f736153",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[@href=\"/azonosito/?op=options&tab=personal\"] (tried for 20 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1633709506192,
+          "stop" : 1633709573836,
+          "duration" : 67644
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "343d44b266d371ba.json",
+  "parameterValues" : [ ]
+}

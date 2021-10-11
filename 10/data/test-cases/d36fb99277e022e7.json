@@ -1,0 +1,116 @@
+{
+  "uid" : "d36fb99277e022e7",
+  "name" : "TC-22: Adatok törlése; Profil adatainak törlése",
+  "fullName" : "DeleteDetails.DeleteDetailsTest.testRemovingDetails",
+  "historyId" : "c99f1007ee269396981e154456295022",
+  "time" : {
+    "start" : 1633950738764,
+    "stop" : 1633950823974,
+    "duration" : 85210
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633950738781,
+      "stop" : 1633950755865,
+      "duration" : 17084
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633950823887,
+      "stop" : 1633950823959,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-327"
+  }, {
+    "name" : "thread",
+    "value" : "3213@fv-az82-327.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "DeleteDetails.DeleteDetailsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "DeleteDetails.DeleteDetailsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRemovingDetails"
+  }, {
+    "name" : "suite",
+    "value" : "Adat vagy adatok törlése"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "7250d1259bddc40a",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/9//#testresult/7250d1259bddc40a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633710054552,
+          "stop" : 1633710131646,
+          "duration" : 77094
+        }
+      }, {
+        "uid" : "b680ffed16eef24c",
+        "reportUrl" : "https://qdancasp.github.io/vizsgaRemek/8//#testresult/b680ffed16eef24c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633708762194,
+          "stop" : 1633708838730,
+          "duration" : 76536
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d36fb99277e022e7.json",
+  "parameterValues" : [ ]
+}
